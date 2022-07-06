@@ -1,2 +1,2 @@
 # my-dots
-#these are my dotfiles for bspwm
+these are my dotfiles for bspwm
