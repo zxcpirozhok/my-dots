@@ -18,6 +18,10 @@ super + c
 super + z
 	telegram-desktop
 
+# steam
+super + \
+	steam
+
 # language
 super + ]
 	setxkbmap -layout "us(basic),ru(winkeys)" -option "grp:rctrl_toggle,numpad:microsoft,grp_led:scroll"
@@ -32,9 +36,9 @@ XF86Audio{Raise,Lower}Volume
 
 # mute sink
 XF86AudioMute
-	pactl set-sink-mute 0 toggle && \
+	pactl set-sink-mute 0 toggle 
 
-# program launcher
+# launcher
 super + d
 	rofi -show run
 
